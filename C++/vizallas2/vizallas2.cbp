@@ -32,7 +32,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="in1.txt" />
 		<Unit filename="main.cpp" />
+		<Unit filename="readme.md" />
 		<Extensions>
 			<code_completion />
 			<envvars />
