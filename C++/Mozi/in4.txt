@@ -1,0 +1,5 @@
+AAAAAA Jancso 10:15 O9 d O10 d
+AAAAAA Fellini 12:15 B3 d B4 d
+AAAAAA Fellini 12:15 Q5 d
+BBBBBB Coppola 19:45 P15 d
+BBBBBB Coppola 19:45 S7 d S8 d

@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1591623054 source:c:\users\zafirgr\desktop\tanulás\c_c++\oep\zh-ra\!!feladatok\mozi\main.cpp
+	<iostream>
+	<string>
+	"library/stringstreamenumerator.hpp"
+	"library/seqinfileenumerator.hpp"
+	"library/summation.hpp"
+
+1591179181 c:\users\zafirgr\desktop\tanulás\c_c++\oep\zh-ra\!!feladatok\mozi\library\stringstreamenumerator.hpp
+	<typeinfo>
+	<sstream>
+	"enumerator.hpp"
+
+1591179181 c:\users\zafirgr\desktop\tanulás\c_c++\oep\zh-ra\!!feladatok\mozi\library\enumerator.hpp
+
+1591179181 c:\users\zafirgr\desktop\tanulás\c_c++\oep\zh-ra\!!feladatok\mozi\library\seqinfileenumerator.hpp
+	<fstream>
+	<typeinfo>
+	<sstream>
+	"enumerator.hpp"
+
+1591179181 c:\users\zafirgr\desktop\tanulás\c_c++\oep\zh-ra\!!feladatok\mozi\library\summation.hpp
+	"procedure.hpp"
+	<iostream>
+
+1591179181 c:\users\zafirgr\desktop\tanulás\c_c++\oep\zh-ra\!!feladatok\mozi\library\procedure.hpp
+	<cstddef>
+	"enumerator.hpp"
+	<iostream>
+	<vector>
+
