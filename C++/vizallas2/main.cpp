@@ -16,8 +16,6 @@ struct Napi_vizallas{
     bool kissebb;
 };
 
-
-
 /// Napi_vizallas-hoz --------------------------------------------------------
 struct Result
 {
@@ -41,9 +39,9 @@ class Meresek : public Summation<ismetlodo, Result>
 {
 protected:
     Result func(const ismetlodo &e) const override {return Result(1,e.meres<=400);}
-    Result neutral() const override { return Result(0, false);}
+    Result neutral() const override { return Result(0, true);}
     Result add(const Result& a, const Result& b) const override {
-        return Result(a.meres_szama + b.meres_szama, a.kissebb || b.kissebb);
+        return Result(a.meres_szama + b.meres_szama, a.kissebb && b.kissebb);
     }
 };
 
@@ -71,6 +69,13 @@ struct ZH_otos{
     bool kissebb;
 };
 
+struct adatok{
+    int meresek_szama;
+    bool kissebb;
+    adatok(){}
+    adatok(int m, bool k): meresek_szama(m), kissebb(k) {}
+};
+
 class MeresEnumerator : public Enumerator<ZH_otos>
 {
 private:
@@ -85,13 +90,7 @@ public:
     bool end() const override { return _end; }
 };
 
-struct adatok{
-    int meresek_szama;
-    bool kissebb;
-    adatok(int m, bool k): meresek_szama(m), kissebb(k) {}
-};
-
-class olvas : public Summation<Napi_vizallas,adatok>
+class Olvas : public Summation<Napi_vizallas,adatok>
 {
 private:
     string _datum;
@@ -102,14 +101,14 @@ protected:
     bool whileCond(const Napi_vizallas &e) const override { return e.datum==_datum; }
     void first() override {}
 public:
-    olvas(const string &datum): _datum(datum) {}
+    Olvas(const string &datum): _datum(datum) {}
 };
 
 void MeresEnumerator::next()
 {
     if((_end = _f.end()));
     _allas.datum =_f.current().datum;
-    olvas pr(_allas.datum);
+    Olvas pr(_allas.datum);
     pr.addEnumerator(&_f);
     pr.run();
     _allas.kissebb = pr.result().kissebb;
@@ -123,10 +122,10 @@ protected:
     bool cond(const Napi_vizallas& e) const override {return e.meres_szama>5 && e.kissebb;}
 };
 
-class mini : MaxSearch<ZH_otos,int,Less<int>>
+class mini : public MaxSearch<ZH_otos,int,Less<int>>
 {
 protected:
-    int func(const ZH_otos& e) const override {return e.meresek_szama;};
+    int func(const ZH_otos& e) const override {return e.meresek_szama;}
     bool  cond(const ZH_otos& e) const override { return e.kissebb;}
 };
 
@@ -148,7 +147,7 @@ int main()
     /*felsorol f(&cout);
     f.addEnumerator(&enor);
     f.run();*/
-    MeresEnumerator enor("in2.txt");
+    MeresEnumerator enor("in1.txt");
     mini m;
     m.addEnumerator(&enor);
     m.run();

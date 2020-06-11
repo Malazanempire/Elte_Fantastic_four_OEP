@@ -1,7 +1,8 @@
 # depslib dependency file v1.0
-1591903899 source:c:\users\asus\documents\github\elte_fantastic_four_oep\c++\vizallas2\main.cpp
+1591910451 source:c:\users\asus\documents\github\elte_fantastic_four_oep\c++\vizallas2\main.cpp
 	<iostream>
 	<string>
+	"../library/enumerator.hpp"
 	"../library/stringstreamenumerator.hpp"
 	"../library/seqinfileenumerator.hpp"
 	"../library/summation.hpp"
