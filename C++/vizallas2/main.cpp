@@ -26,7 +26,7 @@ struct Result
 
 struct ismetlodo{
     string idopont;
-    int meres
+    int meres;
 };
 
 istream& operator>>(istream& inp, ismetlodo &s)
@@ -34,10 +34,10 @@ istream& operator>>(istream& inp, ismetlodo &s)
     return inp >> s.idopont >> s.meres;
 }
 
-class Meresek : public Summation<imetlodo, Result>
+class Meresek : public Summation<ismetlodo, Result>
 {
 protected:
-    Result func(const imetlodo &e) const override {return Result(1,e.meres<=400);}
+    Result func(const ismetlodo &e) const override {return Result(1,e.meres<=400);}
     Result neutral() const override { return Result(0, false);}
     Result add(const Result& a, const Result& b) const override {
         return Result(a.meres_szama + b.meres_szama, a.kissebb || b.kissebb);
@@ -52,7 +52,7 @@ istream& operator>>(istream& inp, Napi_vizallas &s)
     is >> s.helyszin >> s.datum;
 
     Meresek pr;
-    StringStreamEnumerator<imetlodo> enor(is);
+    StringStreamEnumerator<ismetlodo> enor(is);
     pr.addEnumerator(&enor);
     pr.run();
 
@@ -73,7 +73,7 @@ int main()
 {
     cout << "Vizallas!\n" << endl;
 
-    SeqInFileEnumerator<Napi_vizallas> enor("in.txt");
+    SeqInFileEnumerator<Napi_vizallas> enor("in2.txt");
     OptLinKer k;
     k.addEnumerator(&enor);
     k.run();

@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1591903899 source:c:\users\asus\documents\github\elte_fantastic_four_oep\c++\vizallas2\main.cpp
+	<iostream>
+	<string>
+	"../library/stringstreamenumerator.hpp"
+	"../library/seqinfileenumerator.hpp"
+	"../library/summation.hpp"
+	"../library/linsearch.hpp"
+	"../library/maxsearch.hpp"
+
+1591902114 c:\users\asus\documents\github\elte_fantastic_four_oep\c++\library\stringstreamenumerator.hpp
+	<typeinfo>
+	<sstream>
+	"enumerator.hpp"
+
+1591902113 c:\users\asus\documents\github\elte_fantastic_four_oep\c++\library\enumerator.hpp
+
+1591902113 c:\users\asus\documents\github\elte_fantastic_four_oep\c++\library\seqinfileenumerator.hpp
+	<fstream>
+	<typeinfo>
+	<sstream>
+	"enumerator.hpp"
+
+1591902114 c:\users\asus\documents\github\elte_fantastic_four_oep\c++\library\summation.hpp
+	"procedure.hpp"
+	<iostream>
+
+1591902113 c:\users\asus\documents\github\elte_fantastic_four_oep\c++\library\procedure.hpp
+	<cstddef>
+	"enumerator.hpp"
+	<iostream>
+	<vector>
+
+1591902113 c:\users\asus\documents\github\elte_fantastic_four_oep\c++\library\linsearch.hpp
+	"procedure.hpp"
+
+1591902113 c:\users\asus\documents\github\elte_fantastic_four_oep\c++\library\maxsearch.hpp
+	"procedure.hpp"
+
