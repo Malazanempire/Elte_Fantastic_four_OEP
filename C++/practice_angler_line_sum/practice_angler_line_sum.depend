@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1591867576 source:c:\users\gulya\onedrive\dokumentumok\elte_fantastic4\c++\practice_angler_line_sum\main.cpp
+	<iostream>
+	"../library/stringstreamenumerator.hpp"
+	"../library/seqinfileenumerator.hpp"
+	"../library/summation.hpp"
+	"../library/linsearch.hpp"
+	"../library/maxsearch.hpp"
+	"../library/counting.hpp"
+
+1591863214 c:\users\gulya\onedrive\dokumentumok\elte_fantastic4\c++\library\stringstreamenumerator.hpp
+	<typeinfo>
+	<sstream>
+	"enumerator.hpp"
+
+1591863214 c:\users\gulya\onedrive\dokumentumok\elte_fantastic4\c++\library\enumerator.hpp
+
+1591863214 c:\users\gulya\onedrive\dokumentumok\elte_fantastic4\c++\library\seqinfileenumerator.hpp
+	<fstream>
+	<typeinfo>
+	<sstream>
+	"enumerator.hpp"
+
+1591863214 c:\users\gulya\onedrive\dokumentumok\elte_fantastic4\c++\library\summation.hpp
+	"procedure.hpp"
+	<iostream>
+
+1591863214 c:\users\gulya\onedrive\dokumentumok\elte_fantastic4\c++\library\procedure.hpp
+	<cstddef>
+	"enumerator.hpp"
+	<iostream>
+	<vector>
+
+1591863214 c:\users\gulya\onedrive\dokumentumok\elte_fantastic4\c++\library\linsearch.hpp
+	"procedure.hpp"
+
+1591863214 c:\users\gulya\onedrive\dokumentumok\elte_fantastic4\c++\library\maxsearch.hpp
+	"procedure.hpp"
+
+1591863214 c:\users\gulya\onedrive\dokumentumok\elte_fantastic4\c++\library\counting.hpp
+	"summation.hpp"
+
