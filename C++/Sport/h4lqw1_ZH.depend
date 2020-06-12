@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1591960133 source:c:\users\zafirgr\desktop\tanulás\c_c++\oep\zh-ra\!!feladatok\h4lqw1_zh\main.cpp
+	<iostream>
+	<fstream>
+	"osztalyok.h"
+	"library/seqinfileenumerator.hpp"
+
+1591959939 c:\users\zafirgr\desktop\tanulás\c_c++\oep\zh-ra\!!feladatok\h4lqw1_zh\osztalyok.h
+	<iostream>
+	<sstream>
+	"library/enumerator.hpp"
+	"library/seqinfileenumerator.hpp"
+	"library/stringstreamenumerator.hpp"
+	"library/summation.hpp"
+	"library/maxsearch.hpp"
+	"library/linsearch.hpp"
+	"library/counting.hpp"
+	"library/selection.hpp"
+
+1591945922 c:\users\zafirgr\desktop\tanulás\c_c++\oep\zh-ra\!!feladatok\h4lqw1_zh\library\enumerator.hpp
+
+1591945922 c:\users\zafirgr\desktop\tanulás\c_c++\oep\zh-ra\!!feladatok\h4lqw1_zh\library\seqinfileenumerator.hpp
+	<fstream>
+	<typeinfo>
+	<sstream>
+	"enumerator.hpp"
+
+1591945922 c:\users\zafirgr\desktop\tanulás\c_c++\oep\zh-ra\!!feladatok\h4lqw1_zh\library\stringstreamenumerator.hpp
+	<typeinfo>
+	<sstream>
+	"enumerator.hpp"
+
+1591945922 c:\users\zafirgr\desktop\tanulás\c_c++\oep\zh-ra\!!feladatok\h4lqw1_zh\library\summation.hpp
+	"procedure.hpp"
+	<iostream>
+
+1591945922 c:\users\zafirgr\desktop\tanulás\c_c++\oep\zh-ra\!!feladatok\h4lqw1_zh\library\procedure.hpp
+	<cstddef>
+	"enumerator.hpp"
+	<iostream>
+	<vector>
+
+1591945922 c:\users\zafirgr\desktop\tanulás\c_c++\oep\zh-ra\!!feladatok\h4lqw1_zh\library\maxsearch.hpp
+	"procedure.hpp"
+
+1591945922 c:\users\zafirgr\desktop\tanulás\c_c++\oep\zh-ra\!!feladatok\h4lqw1_zh\library\linsearch.hpp
+	"procedure.hpp"
+
+1591945922 c:\users\zafirgr\desktop\tanulás\c_c++\oep\zh-ra\!!feladatok\h4lqw1_zh\library\counting.hpp
+	"summation.hpp"
+
+1591945922 c:\users\zafirgr\desktop\tanulás\c_c++\oep\zh-ra\!!feladatok\h4lqw1_zh\library\selection.hpp
+	"procedure.hpp"
+
