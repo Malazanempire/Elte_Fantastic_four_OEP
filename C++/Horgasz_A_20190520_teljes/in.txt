@@ -1,0 +1,10 @@
+JANIBA Kiliti0512 Keszeg 45 Harcsa 53 Harcsa 96
+ZOLIBA Kiliti0512 Ponty 45 Harcsa 53 Harcsa 96 Ponty 53 Ponty 53 Ponty 53 Ponty 53
+FERIBA Kiliti0512 Ponty 45 Ponty 53 Ponty 68 Harcsa 96
+JANIBA Biliti0512 Csuka 45 Keszeg 53 Keszeg 96
+FERIBA Biliti0512 Harcsa 45 Ponty 53 Harcsa 96
+GEZABA Biliti0512 Ponty 45 Ponty 53 Harcsa 96
+LALIBA Biliti0512 Harcsa 45 Ponty 53 Harcsa 96
+ZSUNIBA Ziliti0512 Keszeg 45 Keszeg 53 Harcsa 96
+NYOMIBA Ziliti0512 Capa 45 Keszeg 53 Harcsa 96
+LALIBA Ziliti0512 Harcsa 45 Keszeg 53 Csuka 96
