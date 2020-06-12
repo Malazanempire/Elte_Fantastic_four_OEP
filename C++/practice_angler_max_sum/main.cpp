@@ -11,14 +11,12 @@
 using namespace std;
 
 
-
 //Ide jön a végeredmény
 struct Horgasz
 {
     string _name;
     string _maxfaj;
     int _halmeret;
-    int count;
 };
 
 
@@ -44,15 +42,7 @@ protected:
     }
 };
 
-class MyCount : public Counting<LegnagyobbHal>
-{
-protected:
-    void first() override {}
-    bool cond(const LegnagyobbHal &e) const override
-    {
-        return true;
-    };
-};
+
 
 //Beolvasás
 istream& operator>>(istream& inp, Horgasz &s)
@@ -73,47 +63,19 @@ istream& operator>>(istream& inp, Horgasz &s)
         s._maxfaj = pr.optElem()._faj;
         s._halmeret = pr.optElem()._meret;
     }
-
-
-    stringstream is2(line);
-    MyCount p;
-    StringStreamEnumerator<LegnagyobbHal> enor2(is2);
-    p.addEnumerator(&enor2);
-    p.run();
-    s.count=p.result();
-
     return inp;
 }
 
 
-struct Result
-{
-    string horgasz;
-    bool vane;
-};
 
 //Progtétel szükség esetén, mainbe
-class MyOr : public Summation<Horgasz, bool>
+class List : public Summation<Horgasz,std::ostream>
 {
 protected:
-    protected:
-    bool neutral() const override { return false; }
-    bool add(const bool& a, const bool& b) const override { return a || b; }
-    bool func(const Horgasz& e)const override { return e.count>5; }
-
-    void first() override {}
-};
-//Progtétel szükség esetén, mainbe
-class List : public Summation<Horgasz,Result, std::ostream>
-{
-protected:
-    Result func(const Horgasz &e) const override {
-        Result result;
-        ostringstream os;
+    std::string func(const Horgasz &e) const override {
+        std::ostringstream os;
         os << e._name << " " <<e._maxfaj << " " << e._halmeret << "\n";
-        result.horgasz = os.str();
-        result.vane=
-        return result;
+        return os.str();
     }
 public:
     List(std::ostream* o): Summation<Horgasz, std::ostream> :: Summation(o) {}
