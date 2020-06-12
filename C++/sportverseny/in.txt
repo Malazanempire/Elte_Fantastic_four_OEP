@@ -1,0 +1,3 @@
+Robi 1063Szinyei futás100 1 melluszás500 1 magasugrás 1
+Gergő 1063Szinyei futás100 2 melluszás500 2 magasugrás 2
+Szimi 1063Szinyei futás100 3 melluszás500 3 magasugrás 3

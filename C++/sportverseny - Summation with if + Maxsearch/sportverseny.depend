@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1591958658 source:c:\users\deres márta\onedrive\asztali gép\sportverseny másolata\main.cpp
+	<iostream>
+	<fstream>
+	"osztalyok.h"
+	"library/seqinfileenumerator.hpp"
+
+1591961940 c:\users\deres márta\onedrive\asztali gép\sportverseny másolata\osztalyok.h
+	<iostream>
+	<sstream>
+	"library/enumerator.hpp"
+	"library/seqinfileenumerator.hpp"
+	"library/stringstreamenumerator.hpp"
+	"library/summation.hpp"
+	"library/maxsearch.hpp"
+	"library/linsearch.hpp"
+	"library/counting.hpp"
+	"library/selection.hpp"
+
+1502814430 c:\users\deres márta\onedrive\asztali gép\sportverseny másolata\library\enumerator.hpp
+
+1560182796 c:\users\deres márta\onedrive\asztali gép\sportverseny másolata\library\seqinfileenumerator.hpp
+	<fstream>
+	<typeinfo>
+	<sstream>
+	"enumerator.hpp"
+
+1554937224 c:\users\deres márta\onedrive\asztali gép\sportverseny másolata\library\stringstreamenumerator.hpp
+	<typeinfo>
+	<sstream>
+	"enumerator.hpp"
+
+1558953710 c:\users\deres márta\onedrive\asztali gép\sportverseny másolata\library\summation.hpp
+	"procedure.hpp"
+	<iostream>
+
+1555652084 c:\users\deres márta\onedrive\asztali gép\sportverseny másolata\library\procedure.hpp
+	<cstddef>
+	"enumerator.hpp"
+	<iostream>
+	<vector>
+
+1547549200 c:\users\deres márta\onedrive\asztali gép\sportverseny másolata\library\maxsearch.hpp
+	"procedure.hpp"
+
+1560181598 c:\users\deres márta\onedrive\asztali gép\sportverseny másolata\library\linsearch.hpp
+	"procedure.hpp"
+
+1537811350 c:\users\deres márta\onedrive\asztali gép\sportverseny másolata\library\counting.hpp
+	"summation.hpp"
+
+1536086406 c:\users\deres márta\onedrive\asztali gép\sportverseny másolata\library\selection.hpp
+	"procedure.hpp"
+
