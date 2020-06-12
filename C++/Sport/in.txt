@@ -1,0 +1,9 @@
+Peter 1063Szinyei futas100 4 melluszas500 5 magasugras 6
+Zoli 1063Szinyei futas100 6 melluszas500 1
+Gyorgyi 1063Szinyei futas100 2 melluszas500 7 magasugras 8
+Feri 1122Kossuth futas100 5 melluszas500 5 magasugras 4
+Agota 1122Kossuth futas100 5 melluszas500 8
+Mona 1224XXX futas100 1 melluszas500 1
+Lali 1203Nagy futas100 3 melluszas500 1 magasugras 4
+Tamas 1203Nagy futas100 5 melluszas500 1 magasugras 9
+Almos 1203Nagy futas100 7 melluszas500 5 magasugras 1
